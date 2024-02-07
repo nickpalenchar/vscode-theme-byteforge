@@ -1,0 +1,97 @@
+{
+  "name": "Synthwave Blues and Greens",
+  "colors": {
+    "editor.background": "#001122",
+    "editor.foreground": "#00FFCC",
+    "editor.selectionBackground": "#002233",
+    "editor.lineHighlightBackground": "#002233",
+    "editorCursor.foreground": "#00FFCC",
+    "editorWhitespace.foreground": "#003344",
+    "editorIndentGuide.background": "#003344",
+    "editorLineNumber.foreground": "#0099CC",
+    "editorLineNumber.activeForeground": "#00FFCC",
+    "editorRuler.foreground": "#0099CC",
+    "editor.findMatchBackground": "#002233",
+    "editor.findMatchHighlightBackground": "#0099CC",
+    "editor.wordHighlightBackground": "#002233",
+    "editor.wordHighlightStrongBackground": "#0099CC",
+    "editorHoverWidget.background": "#002233",
+    "editorHoverWidget.border": "#0099CC",
+    "editorSuggestWidget.background": "#002233",
+    "editorSuggestWidget.border": "#0099CC",
+    "editorSuggestWidget.selectedBackground": "#0099CC",
+    "editorGroup.background": "#001122",
+    "editorGroup.border": "#0099CC",
+    "activityBar.background": "#001122",
+    "activityBar.foreground": "#0099CC",
+    "activityBarBadge.background": "#0099CC",
+    "statusBar.background": "#001122",
+    "statusBar.foreground": "#0099CC",
+    "statusBar.border": "#0099CC",
+    "statusBar.noFolderBackground": "#001122",
+    "statusBar.noFolderForeground": "#0099CC",
+    "statusBarItem.prominentBackground": "#002233",
+    "statusBarItem.prominentForeground": "#0099CC",
+    "statusBarItem.remoteBackground": "#002233",
+    "statusBarItem.remoteForeground": "#0099CC",
+    "titleBar.activeBackground": "#001122",
+    "titleBar.activeForeground": "#0099CC",
+    "titleBar.inactiveBackground": "#001122",
+    "titleBar.inactiveForeground": "#0099CC",
+    "notification.background": "#002233",
+    "notification.foreground": "#0099CC",
+    "notification.buttonBackground": "#0099CC",
+    "notification.buttonForeground": "#001122"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#0099CC",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["variable", "variable.other"],
+      "settings": {
+        "foreground": "#00FFCC"
+      }
+    },
+    {
+      "scope": ["keyword", "keyword.control"],
+      "settings": {
+        "foreground": "#00FFCC"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted.double"],
+      "settings": {
+        "foreground": "#B988CF"
+      }
+    },
+    {
+      "scope": ["constant", "constant.language"],
+      "settings": {
+        "foreground": "#B988CF"
+      }
+    },
+    {
+      "scope": ["number"],
+      "settings": {
+        "foreground": "#B988CF"
+      }
+    },
+    {
+      "scope": ["function", "entity.name.function"],
+      "settings": {
+        "foreground": "#00FFCC"
+      }
+    },
+    {
+      "scope": ["variable.parameter", "variable.other.readwrite"],
+      "settings": {
+        "foreground": "#00FFCC"
+      }
+    }
+  ]
+}

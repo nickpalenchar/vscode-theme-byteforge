@@ -1,0 +1,29 @@
+{
+  "name": "vscode-theme-byteforge",
+  "displayName": "Byteforge",
+  "description": "A new custom theme",
+  "version": "1.0.0",
+  "publisher": "Nick Palenchar",
+  "repository": "https://github.com/nickpalenchar/vscode-theme-byteforge",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ByteForge",
+        "uiTheme": "vs-dark",
+        "path": "./themes/byteforge.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "vsce package"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
