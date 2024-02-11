@@ -60,37 +60,61 @@
     {
       "scope": ["keyword", "keyword.control"],
       "settings": {
-        "foreground": "#00FFCC"
+        "foreground": "#FFD700"
       }
     },
     {
       "scope": ["string", "string.quoted.double"],
       "settings": {
-        "foreground": "#B988CF"
+        "foreground": "#00FF00"
       }
     },
     {
       "scope": ["constant", "constant.language"],
       "settings": {
-        "foreground": "#B988CF"
+        "foreground": "#FF69B4"
       }
     },
     {
       "scope": ["number"],
       "settings": {
-        "foreground": "#B988CF"
+        "foreground": "#00FF00"
       }
     },
     {
       "scope": ["function", "entity.name.function"],
       "settings": {
-        "foreground": "#00FFCC"
+        "foreground": "#FFA07A"
       }
     },
     {
       "scope": ["variable.parameter", "variable.other.readwrite"],
       "settings": {
-        "foreground": "#00FFCC"
+        "foreground": "#87CEEB"
+      }
+    },
+    {
+      "scope": ["storage.type", "keyword.type"],
+      "settings": {
+        "foreground": "#20B2AA"
+      }
+    },
+    {
+      "scope": ["entity.name.class"],
+      "settings": {
+        "foreground": "#DA70D6"
+      }
+    },
+    {
+      "scope": ["support.type", "support.class"],
+      "settings": {
+        "foreground": "#FF4500"
+      }
+    },
+    {
+      "scope": ["variable.other.property"],
+      "settings": {
+        "foreground": "#9932CC"
       }
     }
   ]
